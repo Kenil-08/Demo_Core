@@ -21,6 +21,7 @@ namespace Demo_Core
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //Hello! This is Comment..
                 });
     }
 }
